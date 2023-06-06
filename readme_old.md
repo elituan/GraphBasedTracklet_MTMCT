@@ -1,7 +1,6 @@
 # [City-Scale Multi-Camera Vehicle Tracking Guided by Crossroad Zones](https://arxiv.org/pdf/2105.06623.pdf)
 
 ## Requirements
-
 Python 3.8 or later with all ```requirements.txt``` dependencies installed, including `torch>=1.7`. To install run:
 ```bash
 $ pip install -r requirements.txt
