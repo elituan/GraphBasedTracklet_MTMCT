@@ -1,0 +1,14 @@
+__pycache__/
+exp/
+*.mp4
+*.avi
+*.pt
+*.pth
+*.png
+*.pkl
+*.jpg
+*.txt
+*.gpickle
+*.json
+*.zip
+venv/
