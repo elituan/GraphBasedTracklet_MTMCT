@@ -12,6 +12,7 @@ exp/
 *.json
 *.zip
 venv/
+venv1/
 main/
 MGMN/
 reid/TransReID/
