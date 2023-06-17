@@ -5,7 +5,7 @@
 
 
 # Overview
-This repository is an official implementation of the "Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features" paper being published in the IEEE Transactions on Multimedia journal.
+This repository serves as the authorized implementation of the paper titled "Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features," which is scheduled for publication in the IEEE Transactions on Multimedia journal.
 
 ## Requirements
 Python 3.8 or later with all ```requirements.txt``` dependencies installed, including `torch>=1.7`. To install run:
@@ -14,12 +14,9 @@ $ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-If you want to reproduce our results on AI City Challengef,
-please download the datasets from: (https://www.aicitychallenge.org/)
-and put it under the folder datasets.
-Make sure the data structure is like:
+To replicate our results in the AI City Challenge, please download the datasets from the following link: (https://www.aicitychallenge.org/). Once downloaded, place the datasets in the "datasets" folder. It is important to ensure that the data structure follows the prescribed format.
 
-> **[GraphBasedTracklet_MTMCT Google Drive](https://drive.google.com/drive/folders/)**
+> **[GraphBasedTracklet_MTMCT Google Drive](https://drive.google.com/drive/folders/1pzr8CAPGheDSt6KPTjgwrJjhZwWoqUCe?usp=sharing)**
 >   * datasets
 >     * [AIC21_Track3_MTMC_Tracking](https://www.aicitychallenge.org/2021-data-and-evaluation/)
 >       * unzip AIC21_Track3_MTMC_Tracking.zip
@@ -34,13 +31,13 @@ Make sure the data structure is like:
 >       * resnext101_ibn_a_2.pth
 
 ## Reproduce frome detect_provided 
-If you just want reproduce our results, you can directly download ```detect_provided```:
+To replicate our result, kindly download the necessary files  ```detect_provided```, and put ```detect_provided``` folder under this folder: 
 ```
 cd GraphBasedTracklet_MTMCT
 mkdir datasets
 cd datasets
 ```
-Then put ```detect_provided``` folder under this folder and modify yml ```config/aic_graphbase.yml```:
+Then, modify yml file ```config/aic_graphbase.yml```:
 ```
 CHALLENGE_DATA_DIR: '/home/xxx/GraphBasedTracklet_MTMCT/datasets/AIC21_Track3_MTMC_Tracking/'
 DET_SOURCE_DIR: '/home/xxx/GraphBasedTracklet_MTMCT/datasets/detection/images/test/S06/'
@@ -58,7 +55,7 @@ Then run:
 bash ./run_graphbase_reproduce.sh
 ```
 
-The final results will locate at path ```./reid/reid-matching/tools/track3.txt```
+The final results will be in ```./reid/reid-matching/tools/track3.txt```
 
 
 
