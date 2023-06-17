@@ -1,4 +1,4 @@
-MCMT_CONFIG_FILE="aic_mcmt.yml"
+MCMT_CONFIG_FILE="graphbase_mcmt.yml"
 #### Run Detector.####
 cd detector/
 python gen_images_aic.py ${MCMT_CONFIG_FILE}
