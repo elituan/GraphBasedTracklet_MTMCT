@@ -47,7 +47,7 @@ To replicate our results in the AI City Challenge, please download the datasets 
 >       * resnet101_ibn_a_3.pth
 >       * resnext101_ibn_a_2.pth
 
-## Reproduce frome detect_provided 
+## Reproduce from detect_provided 
 To replicate our result, kindly download the necessary files  ```detect_provided```, and put ```detect_provided``` folder under this folder: 
 ```
 cd GraphBasedTracklet_MTMCT
