@@ -7,6 +7,23 @@
 # Overview
 This repository serves as the authorized implementation of the paper titled "Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features," which is scheduled for publication in the IEEE Transactions on Multimedia journal.
 
+## Citation
+Nguyen, T. T., Nguyen, H. H., Sartipi, M., & Fisichella, M. (2023). Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features. IEEE Transactions on Multimedia. [Preprint](https://hoanghnguyen.com/assets/pdf/nguyen2023multi.pdf)
+
+```
+@article{nguyen2023multi,
+  title={Multi-Vehicle Multi-Camera Tracking With Graph Based Tracklet Features},
+  author={Nguyen, Tuan T. and Nguyen, Hoang H. and Sartipi, Mina and Fisichella, Marco},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  volume={},
+  number={},
+  publisher={IEEE},
+  pages={1-13},
+  doi={10.1109/TMM.2023.3274369}
+}
+```
+
 ## Requirements
 Python 3.8 or later with all ```requirements.txt``` dependencies installed, including `torch>=1.7`. To install run:
 ```bash
@@ -59,19 +76,3 @@ The final results will be in ```./reid/reid-matching/tools/track3.txt```
 
 
 
-## Citation
-Nguyen, T. T., Nguyen, H. H., Sartipi, M., & Fisichella, M. (2023). Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features. IEEE Transactions on Multimedia. [Preprint](https://hoanghnguyen.com/assets/pdf/nguyen2023multi.pdf)
-
-```
-@article{nguyen2023multi,
-  title={Multi-Vehicle Multi-Camera Tracking With Graph Based Tracklet Features},
-  author={Nguyen, Tuan T. and Nguyen, Hoang H. and Sartipi, Mina and Fisichella, Marco},
-  journal={IEEE Transactions on Multimedia},
-  year={2023},
-  volume={},
-  number={},
-  publisher={IEEE},
-  pages={1-13},
-  doi={10.1109/TMM.2023.3274369}
-}
-```
