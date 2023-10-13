@@ -5,7 +5,9 @@
 
 
 # Overview
-This repository serves as the authorized implementation of the paper titled "Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features," which is scheduled for publication in the IEEE Transactions on Multimedia journal.
+This repository is the authorized implementation of the paper titled "Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features," published in the IEEE Transactions on Multimedia journal, 2023.
+
+Multi-target multi-camera tracking (MTMCT) is an important application in intelligent transportation systems (ITS). The conventional works follow the tracking-by-detection scheme and use the information of the object image separately while matching the object from different cameras. As a result, the association information from the object image is lost. To utilize this information, we propose an efficient MTMCT application that builds features in the form of a graph and customizes graph similarity to match the vehicle objects from different cameras. We present algorithms for both the online scenario, where only the past images are used to match a vehicle object, and the offline scenario, where a given vehicle object is tracked with past and future images. For offline scenarios, our method achieves an IDF1-score of 0.8166 on the Cityflow dataset, which contains the actual scenes of the city from multiple street cameras. For online scenarios, our method achieves an IDF1-score of 0.75 with an FPS of 14.
 
 ## Citation
 Nguyen, T. T., Nguyen, H. H., Sartipi, M., & Fisichella, M. (2023). Multi-Vehicle Multi-Camera Tracking with Graph-Based Tracklet Features. IEEE Transactions on Multimedia. [Preprint](https://hoanghnguyen.com/assets/pdf/nguyen2023multi.pdf)
