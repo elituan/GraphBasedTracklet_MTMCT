@@ -69,7 +69,7 @@ class SimGNN(torch.nn.Module):
         :return features: Absstract feature matrix.
         """
         features = self.convolution_1(features, edge_index)
-        features = torch.   nn.functional.relu(features)
+        features = torch.nn.functional.relu(features)
         features = torch.nn.functional.dropout(features,
                                                p=self.args.dropout,
                                                training=self.training)
