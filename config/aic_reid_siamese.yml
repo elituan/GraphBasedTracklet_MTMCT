@@ -1,0 +1,6 @@
+DET_SOURCE_DIR: '/home/ehoang/eli/GraphBasedTracklet_MTMCT/datasets/detection/images/test/S06/'
+REID_MODEL: 'Siamese/siamese_best.pth'
+REID_BACKBONE: 'siamese'
+DET_IMG_DIR: '/home/ehoang/eli/GraphBasedTracklet_MTMCT/datasets/detect_merge/'
+DATA_DIR: '/home/ehoang/eli/GraphBasedTracklet_MTMCT/datasets/detect_siamese/'
+REID_SIZE_TEST: [384, 384]

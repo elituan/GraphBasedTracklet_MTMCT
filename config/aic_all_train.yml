@@ -1,0 +1,11 @@
+CHALLENGE_DATA_DIR: '/gpfs/gsfs1/home/tnguyen/coding/reid_all/AIC21-MTMC/datasets/AIC21_Track3_MTMC_Tracking/'
+DET_SOURCE_DIR: '/gpfs/gsfs1/home/tnguyen/coding/reid_all/AIC21-MTMC/datasets/detection/images/train/S01/'
+DATA_DIR: '/gpfs/gsfs1/home/tnguyen/coding/reid_all/AIC21-MTMC/datasets/detect_merge_train/'
+REID_SIZE_TEST: [384, 384]    # 384, 256
+ROI_DIR: '/gpfs/gsfs1/home/tnguyen/coding/reid_all/AIC21-MTMC/datasets/AIC21_Track3_MTMC_Tracking/train/S01/'
+CID_BIAS_DIR: '/gpfs/gsfs1/home/tnguyen/coding/reid_all/AIC21-MTMC/datasets/AIC21_Track3_MTMC_Tracking/cam_timestamp/'
+USE_RERANK: False
+USE_FF: False
+SCORE_THR: 0.1
+MCMT_OUTPUT_TXT: '/gpfs/gsfs1/home/tnguyen/coding/reid_all/AIC21-MTMC/track3_ffFalse_rrFalse.txt'
+SEC_DIR: ["train","validation"]#['test', "train", "validation"]
